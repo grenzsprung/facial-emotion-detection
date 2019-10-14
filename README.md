@@ -8,11 +8,11 @@ Term: Fall 2019
 
 + Team ##
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
+	+ Longo, Stefano sl4444@columbia.edu
+	+ Meng, Yang ym2696@columbia.edu
+	+ Ruan, Qiuyu qr2127@columbia.edu
+	+ Schleicher, Tim trs2145@columbia.edu
+	+ Zhao, Nuanjun nz2295@columbia.edu
 
 + Project summary: In this project, we created a classification engine for facial emotion recognition. 
 	
