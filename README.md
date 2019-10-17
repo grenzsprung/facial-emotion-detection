@@ -6,7 +6,7 @@
 
 Term: Fall 2019
 
-+ Team ##
++ Team 8
 + Team members
 	+ Longo, Stefano sl4444@columbia.edu
 	+ Meng, Yang ym2696@columbia.edu
