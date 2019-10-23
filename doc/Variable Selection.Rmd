@@ -1,0 +1,37 @@
+---
+title: "Variable Selection"
+output: html_document
+---
+
+# Best Subset Selection
+Fit a separate least squares regression for each possible combination of $p$ predictors. Total of $p(p-1)/2$ models. Choose the one that maxmimises BIC. AIC and Adjusted R-squared are two worse alternatives. 
+```{r}
+library(leaps)
+bestsub_fit <- regsubsets(y ~ ., data = df) #specify method = "forward" or "backward" for respective technique
+plot(bestsub_fit, scale = "bic")
+```
+
+# Random Forest
+Run a random forest and evaluate the most relevant variables
+```{r}
+library(randomForest)
+rf_fit <- randomForest(y ~ ., data = df)
+varImpPlot(rf_fit, n.var=10)
+```
+
+# Lasso
+Shrinks the coefficient estimates towards zero. Need to use cross validation to select the tuning parameter $\lambda$. 
+```{r}
+library(glmnet)
+lambda_values = 10^seq(10, -2, length=100)
+lasso_fit <- cv.glment(x[train,], y[train,], alpha=1, lambda=lambda_values) #alpha = 1 indicates lasso rather than ridge
+
+best_lambda = lasso_fit$lambda.min
+
+mod <- glment(x,y, alpha=1, lambda=lambda_values)
+lasso.coef = predict(mod, type="coefficients", s=best_lambda)
+
+lasso_select <- lasso.coef[lasso.coef!=0]
+```
+
+
