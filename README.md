@@ -16,7 +16,13 @@ Term: Fall 2019
 
 + Project summary: In this project, we create a classification engine for facial emotion recognition. After testing a variety of different models, we verified that using LDA with a PCA-driven selection of features offers the best improvement over the baseline model of gradient boosting machines.
 	
-**Contribution statement**: Most team members contributed equally in all stages of this project. Yang is the only team member who contributed substantially to more than one stage of the project. Stefano focused on the variable selection methods. Yang and Nuanjun focused on the baseline model and on which model to feed to gradient boosting. Tim developed a deep learning approach which proved less useful than other models since the amount of data was comparatively limited. Yang designed the PCA part, improved the modelling, and merged all the coding together. All team members approve our work presented in this GitHub repository including this contributions statement. 
+**Contribution statement**: 
+Yang Meng: 
+Stefano Longo: focused on the variable selection methods, including best subsets, forward and random forest. 
+Nuanjun Zhao: Other models tried including svm and adaboost method with lower accuracy and participation in codes of adaboost combined with LDA by hand which finally failed; Report part in main.pdf. How to reduce the dimension of the duplicated features.
+Tim Schleicher: developed a deep learning approach which proved less useful than other models since the amount of data was comparatively limited. 
+Qiuyu Ruan: Other models tried including xgboost method with lower accuracy; baseline model: gbm; participation in codes of adaboost combined with LDA by hand which finally failed; Report part in main.pdf. How to reduce the dimension of the duplicated features.
+
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
