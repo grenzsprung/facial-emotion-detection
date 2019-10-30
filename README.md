@@ -16,7 +16,7 @@ Term: Fall 2019
 
 + Project summary: In this project, we create a classification engine for facial emotion recognition. After testing a variety of different models, we verified that using a ___ offers the best improvement over the baseline model of gradient boosting machines.
 	
-**Contribution statement**:(doc/a_note_on_contributions.md)) Most team members contributed equally in all stages of this project. Yang is the only team member who contributed substantially to more than one stage of the project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+**Contribution statement**:(doc/a_note_on_contributions.md)) Most team members contributed equally in all stages of this project. Yang is the only team member who contributed substantially to more than one stage of the project. Stefano focused on the variable selection methods. Yang and Nuanjun focused on the baseline model and on which model to feed to gradient boosting. Tim developed a deep learning approach but realised that the amount of data was not sufficient for such type of modelling. Yang designed the PCA part, improved the modelling, and merged all the coding together. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
