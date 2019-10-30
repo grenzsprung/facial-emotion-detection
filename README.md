@@ -14,9 +14,9 @@ Term: Fall 2019
 	+ Schleicher, Tim trs2145@columbia.edu
 	+ Zhao, Nuanjun nz2295@columbia.edu
 
-+ Project summary: In this project, we created a classification engine for facial emotion recognition. 
++ Project summary: In this project, we create a classification engine for facial emotion recognition. After testing a variety of different models, we verified that using a ___ offers the best improvement over the baseline model of gradient boosting machines.
 	
-**Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+**Contribution statement**: ([default](doc/a_note_on_contributions.md)) Most team members contributed equally in all stages of this project. Yang is the only team member who contributed substantially to more than one stage of the project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
