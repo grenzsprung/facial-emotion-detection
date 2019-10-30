@@ -2,4 +2,4 @@
 
 ### Doc folder
 
-The doc directory contains the report or presentation files. It can have subfolders.  
+The doc directory contains files with all the models we ran. The main file contains the LDA model, which outperformed all the other ones.   
