@@ -16,7 +16,7 @@ Term: Fall 2019
 
 + Project summary: In this project, we created a classification engine for facial emotion recognition. After testing a variety of different models, we verified that using LDA with a PCA-driven dimensional reduction offered the best improvement over the baseline model of gradient boosting machines. We achieved 51.2% prediction accuracy with 0.230s and 0.057s training and test feature construction time, 10.953s model training time, 0.004s model testing time.
 
-### [Project Report](doc/Main.pdf)
+### [Project Report](doc/main.pdf)
 	
 **Contribution statement**: 
 
