@@ -452,4 +452,8 @@ It needs only 11s to train the model, and less than 0.01s to predict. The featur
 
 What is more, boosting is sensitive to outliers, which means boosting methods are not as robust. In most boosting methods, the difference in training and test accuracy is larger than 20%, but in our model, the difference is only 6%. Such difference may not show how good a model is, but it may show the robustness in some way.
 
+### **Step 6: possible improvements**
+
+We are aware that in the real world a prediction accuracy of 50% can result in rather conterproductive outcomes. Selling this final product to an actual company could prove to be difficult because companies cannot afford to be wrong 50% of the time. Therefore, a potential way to further improve our model and make it competitive on the market would involve using a two-layer model. In fact, we have noticed that emotions 19, 20, 21, 22 are the most prone to misclassification in our current model.
+
 
