@@ -18,7 +18,7 @@ Term: Fall 2019
 	
 **Contribution statement**: 
 
-Yang Meng: 
+Yang Meng: team leader - selected features to overcome the collinearity by deleting duplicated fiducial points and horizontal distances; tuned the number of principle components by cross validation; reduced dimension by PCA to overcome overfitting and applied linear discriminant analysis to selected principle components; measured the time and accuracy as needed; explored a two layer model by SVM as the second layer to reclassify misclassified data given by LDA; explored a boosting method with LDA as weak learners; made some proofs for the feature selection part and explained the pros and cons of our model in the pdf report
 
 Stefano Longo: focused on the variable selection methods, including best subsets, forward and random forest. 
 
