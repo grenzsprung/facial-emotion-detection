@@ -26,7 +26,7 @@ Stefano Longo: Focused on the variable selection methods, including best subsets
 
 Nuanjun Zhao: Other models tried including svm and adaboost method with lower accuracy and participation in codes of adaboost combined with LDA by hand which finally failed; Report part in main.pdf. How to reduce the dimension of the duplicated features.
 
-Tim Schleicher: Developed and implemented a Convolutional Neural Network. This included all relevant steps in deep learning such as data processing, model construction and model tuning. The best CNN proved less useful than other models since the amount of data was comparatively limited. He also conceptualized and prepared the final presentation.
+Tim Schleicher: Developed and implemented a Convolutional Neural Network. This included all relevant steps in deep learning such as data processing, model construction and model tuning. The best CNN proved less useful than other models since the amount of data was comparatively limited. He also conceptualized and prepared the presentation.
 
 Qiuyu Ruan: Other models tried including xgboost method with lower accuracy; baseline model: gbm; participation in codes of adaboost combined with LDA by hand which finally failed; Report part in main.pdf. How to reduce the dimension of the duplicated features.
 
