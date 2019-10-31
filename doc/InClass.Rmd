@@ -13,8 +13,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ## **Step 5: in class test**
 
 ```{r}
-setwd("/Users/mengyang/Documents/GitHub/fall2019-proj3-sec2--grp8/doc")
-test_dir <- "../data/test_set/" # This will be modified for different data sets.
+setwd("/Users/stefano/Documents/GitHub/fall2019-proj3-sec2--grp8/doc")
+test_dir <- "../data/test_set_sec2/" # This will be modified for different data sets.
 test_image_dir <- paste(test_dir, "images/", sep="")
 test_pt_dir <- paste(test_dir,  "points/", sep="")
 ```
