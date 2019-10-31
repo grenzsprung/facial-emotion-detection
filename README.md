@@ -14,7 +14,7 @@ Term: Fall 2019
 	+ Schleicher, Tim trs2145@columbia.edu
 	+ Zhao, Nuanjun nz2295@columbia.edu
 
-+ Project summary: In this project, we create a classification engine for facial emotion recognition. After testing a variety of different models, we verified that using LDA with a PCA-driven selection of features offers the best improvement over the baseline model of gradient boosting machines.
++ Project summary: In this project, we created a classification engine for facial emotion recognition. After testing a variety of different models, we verified that using LDA with a PCA-driven dimensional reduction offered the best improvement over the baseline model of gradient boosting machines. We achieved 51.2% prediction accuracy with 0.230s and 0.057s training and test feature construction time, 10.953s model training time, 0.004s model testing time.
 	
 **Contribution statement**: 
 
