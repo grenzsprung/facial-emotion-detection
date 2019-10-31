@@ -7,6 +7,11 @@ output: html_document
 load("../output/feature_train_sel.RData")
 ```
 
+```{r}
+library(leaps)
+best_fit <- regsubsets(emotion_idx ~ ., data = dat_train, method = "exhaustive")
+```
+
 # Forward Selection
 ```{r}
 #Run model
