@@ -37,9 +37,12 @@ Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by
 proj/
 ├── lib/
 ├── data/
+     └── train_set/
 ├── doc/
+     └── Additional_Models/
 ├── figs/
 └── output/
+     └── Additional_Models/
 ```
 
 Please see each subfolder for a README file.
