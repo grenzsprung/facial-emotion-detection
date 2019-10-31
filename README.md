@@ -20,13 +20,13 @@ Term: Fall 2019
 	
 **Contribution statement**: 
 
-Yang Meng: team leader - selected features to overcome the collinearity by deleting duplicated fiducial points and horizontal distances; tuned the number of principle components by cross validation; reduced dimension by PCA to overcome overfitting and applied linear discriminant analysis to selected principle components; measured the time and accuracy as needed; explored a two layer model by SVM as the second layer to reclassify misclassified data given by LDA; explored a boosting method with LDA as weak learners; made some proofs for the feature selection part and explained the pros and cons of our model in the pdf report
+Yang Meng: Team leader - selected features to overcome the collinearity by deleting duplicated fiducial points and horizontal distances; tuned the number of principle components by cross validation; reduced dimension by PCA to overcome overfitting and applied linear discriminant analysis to selected principle components; measured the time and accuracy as needed; explored a two layer model by SVM as the second layer to reclassify misclassified data given by LDA; explored a boosting method with LDA as weak learners; made some proofs for the feature selection part and explained the pros and cons of our model in the pdf report
 
-Stefano Longo: focused on the variable selection methods, including best subsets, forward and random forest. Coordinated team efforts and cleaned the GitHub repository.
+Stefano Longo: Focused on the variable selection methods, including best subsets, forward and random forest. Coordinated team efforts and cleaned the GitHub repository.
 
 Nuanjun Zhao: Other models tried including svm and adaboost method with lower accuracy and participation in codes of adaboost combined with LDA by hand which finally failed; Report part in main.pdf. How to reduce the dimension of the duplicated features.
 
-Tim Schleicher: Developed and implemented a Convolutional Neural Network which proved less useful than other models since the amount of data was comparatively limited. In addition, he prepared the presentation. 
+Tim Schleicher: Developed and implemented a Convolutional Neural Network. This included all relevant steps in deep learning such as data processing, model construction and model tuning. The best CNN proved less useful than other models since the amount of data was comparatively limited. In addition, he conceptualized and prepared the final presentation.
 
 Qiuyu Ruan: Other models tried including xgboost method with lower accuracy; baseline model: gbm; participation in codes of adaboost combined with LDA by hand which finally failed; Report part in main.pdf. How to reduce the dimension of the duplicated features.
 
