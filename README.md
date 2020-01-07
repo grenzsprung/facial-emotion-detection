@@ -1,11 +1,13 @@
-# Project: Facial Emotion Recognition by Linear Discriminant Analysis
+# Applied Data Science @ Columbia University
+## Fall 2019
+## Project 3: Facial Emotion Recognition with Linear Discriminant Analysis
+
 <img src="figs/CE.jpg" alt="Compound Emotions" width="500"/>
 (Image source: https://www.pnas.org/content/111/15/E1454)
 
 ### [Full Project Description](doc/project3_desc.md)
 
 Term: Fall 2019
-
 + Team 8
 + Team members
 	+ Longo, Stefano sl4444@columbia.edu
